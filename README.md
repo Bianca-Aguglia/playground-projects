@@ -10,7 +10,7 @@ This is a collection of small to medium-size projects I work on as I try to buil
       
     
 **Naming conventions**
-- file names
+- sub-folder names
     - \[file_type]\_\[language]\_\_\[project_name]
     - e.g.: gm_py__king_othello
 - project types
