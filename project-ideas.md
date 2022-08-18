@@ -12,5 +12,6 @@ $^1$ 18aug22: a better idea is text-viz. It expands on wikipedia-entry-map-it in
 1. it uses more sources of data, not just wikipedia pages (e.g. pdfs, images of text that can be read using OCR, etc.)
 2. it has more features:
 - in addition to the geo data, it visualizes data such as people, events, text stats, etc.
-- it allows tagging pieces of text
+- it allows tagging pieces of text  
+  
 $^2$ 18aug22: this is one of the features in project-idea no. 2 (text-viz), but I'm making it into a separate project because it's large enough to justify it and because it will be useful in other projects as well
