@@ -7,7 +7,7 @@
 | 3  |18-aug-22|screen-ocr                |webapp or chrome extension that uses ocr to take text data on the screen (e.g. pdf, blog post, ebook in format other than pdf, image, etc) and puts it into text file $^2$|
 
 
-**Notes:**
+**Notes:**  
 $^1$ 18aug22: a better idea is text-viz. It expands on wikipedia-entry-map-it in at least two ways:
 1. it uses more sources of data, not just wikipedia pages (e.g. pdfs, images of text that can be read using OCR, etc.)
 2. it has more features:
