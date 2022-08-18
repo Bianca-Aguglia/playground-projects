@@ -11,8 +11,8 @@ This is a collection of small to medium-size projects I work on as I try to buil
     
 **Naming conventions**
 - sub-folder names
-    - \[file_type]\_\[language]\_\_\[project_name]
-    - e.g.: gm_py__king_othello
+    - \[file_type]-\[language]\--\[project_name]
+    - e.g.: gm-py--king-othello
 - project types
     - gm: game
     - ut: util (e.g. map widget, etc.)
@@ -29,3 +29,4 @@ This is a collection of small to medium-size projects I work on as I try to buil
 ---
 **Notes**
 - 13aug22: decided to move the forked projects to their own folder to more accurately reflect the number of projects I build or I directly contribute to
+- 18aug22: decided to change the naming convention (use '-' instead of '\_' to follow best practices)

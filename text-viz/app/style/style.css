@@ -1,0 +1,33 @@
+:root {
+    --purple-dark : #572c43;
+    --dash-card-width: 10rem;
+    --dash-card-height: 15rem;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    background-color: lightgray;
+}
+
+.flx {
+    display: flex;
+}
+
+header {
+    background-color: darkgray;
+}
+
+.side-navbar {
+    background-color: gray;
+}
+
+#map {
+    height: 60vh;
+    width: 100%;
+}

@@ -1,3 +1,6 @@
 # hidden checkpoint files
 **/.DS_Store
 **/.ipynb_checkpoints
+
+# scratchpads
+**/*scratchpad*
