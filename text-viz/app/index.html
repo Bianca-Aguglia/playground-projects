@@ -4,30 +4,40 @@
         <meta charset="utf-8">
         <title>Text viz</title>
         <link rel="stylesheet" href="./style/style.css">
+        <!--leaflet.js css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css"
+        integrity="sha512-hoalWLoI8r4UszCkZ5kL8vayOGVae1oxXe/2A4AO6J9+580uKHDO3JdHb7NzwwzK5xr/Fs0W40kiNHxM9vyTtQ=="
+        crossorigin=""/>
+        <!-- Make sure you put this AFTER Leaflet's CSS -->
+        <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"
+        integrity="sha512-BB3hKbKWOc9Ez/TAwyWxNXeoV9c1v6FIeYiBieIWkpLjauysF18NzgR1MBNBXf8/KABdlkX68nAhlwcDFLGPCQ=="
+        crossorigin=""></script>
+        <!--map-->
+        <script src="./script/map.js" defer></script>
 
     </head>
     <body>
         <div class="container">
             <header class="flx">
-                <a href="index.html" class="header-logo">text-viz</a>
+                <a href="index.html" class="header-logo"><span class="primary">text</span><span class="light-gray">viz</span></a>
                 <form class="header-search-bar">
                     <input type="text">
                 </form>
                 <nav aria-label="header-navbar" class="flx">
-                    <ul>
+                    <ul class="list-style-type-none light-gray">
                         <li>user</li>
                     </ul>
                 </nav>
             </header>
             <main class="flx">
                 <nav aria-label="side-navbar" class="side-navbar flx">
-                    <ul>
-                        <li><a href="#">Map</a></li>
-                        <li><a href="#">People</a></li>
-                        <li><a href="#">Timeline</a></li>
-                        <li><a href="#">NLP</a></li>
-                        <li><a href="#">Tag</a></li>
-                        <li><a href="#">Reset</a></li>
+                    <ul class="list-style-type-none light-gray">
+                        <li><a href="#" class="light-gray">Map</a></li>
+                        <li><a href="#" class="light-gray">People</a></li>
+                        <li><a href="#" class="light-gray">Timeline</a></li>
+                        <li><a href="#" class="light-gray">NLP</a></li>
+                        <li><a href="#" class="light-gray">Tag</a></li>
+                        <li><a href="#" class="light-gray">Reset</a></li>
                     </ul>
                 </nav>
                 <div class="container-map">

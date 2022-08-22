@@ -1,5 +1,7 @@
 :root {
-    --purple-dark : #572c43;
+    --purple-dark: #572c43;
+    --light-gray: #E9E9E9;
+    --dark-gray: darkgray;
     --dash-card-width: 10rem;
     --dash-card-height: 15rem;
 
@@ -7,6 +9,8 @@
 
 * {
     box-sizing: border-box;
+    margin: 0;
+    /* border: 1px solid red; */
 }
 
 .container {
@@ -19,15 +23,34 @@
     display: flex;
 }
 
+.list-style-type-none {
+    list-style-type: none;
+    padding: 0;
+}
+
+.primary {
+    color: var(--purple-dark);
+}
+
+.light-gray {
+    color: var(--light-gray);
+}
+
 header {
-    background-color: darkgray;
+    background-color: var(--dark-gray);
 }
 
 .side-navbar {
-    background-color: gray;
+    background-color: var(--dark-gray);
 }
 
+.container-map {
+    padding: 10px;
+    background: var(--light-gray);
+    width: 90%;
+}
 #map {
+    border: 1px solid red;
     height: 60vh;
-    width: 100%;
+    /* width: 100%; */
 }
